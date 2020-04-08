@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nifi-deployment-example
+  name: nifi-deployment-demo
   labels:
-    name: nifi-pod
+    name: nifi-deployment-demo
     app: nifi
 spec:
     containers:
