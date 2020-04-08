@@ -10,5 +10,5 @@ spec:
   - port: 8080
     image: "apache/nifi:1.9.1"
     targetPort: 8080
-    selector:
-      name: nifi-pod
+  selector:
+    name: nifi-pod
