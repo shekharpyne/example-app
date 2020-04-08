@@ -18,4 +18,4 @@ spec:
       - name: nifi
         image: apache/nifi:1.9.1
         ports:
-        - containerPort: 8080
+        - containerPort: 8080 
