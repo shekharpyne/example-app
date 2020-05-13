@@ -18,4 +18,4 @@ spec:
       - name: micro
         image: tathadocker/tatha-docker-eureka
         ports:
-        - containerPort: 8080
+        - containerPort: 8761
