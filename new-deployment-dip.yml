@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: micro-deployment-dip
+  labels:
+    app: micro
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: micro
+  template:
+    metadata:
+      labels:
+        app: micro
+    spec:
+      containers:
+      - name: micro
+        image: dipanwitasaha/helloworld
+        ports:
+        - containerPort: 3001

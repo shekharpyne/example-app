@@ -1,2 +1,2 @@
 # example-app
-Example and training 
+Example and training.
