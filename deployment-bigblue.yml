@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bigblue-deployment
+  labels:
+    app: bigblue
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bigblue
+  template:
+    metadata:
+      labels:
+        app: bigblue
+    spec:
+      containers:
+      - name: bigblue
+        image: bigbluebutton/greenlight
+        ports:
+        - containerPort: 8080
