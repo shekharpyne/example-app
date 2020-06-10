@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: micro-deployment
+  name: micro-deployment-eureka
   labels:
     app: micro
 spec:
