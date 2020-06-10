@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: micro
-        image: dipanwitasaha/helloworld
+        image: shekharpyne/travelplanner
         ports:
-        - containerPort: 3001
+        - containerPort: 8090
