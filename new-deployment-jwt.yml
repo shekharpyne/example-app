@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: micro-deployment-jwt
+  name: jwt-micro-deployment
   labels:
     app: micro
 spec:
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: micro
-        image: docker pull shekharpyne/spring-jwt
+        image: shekharpyne/spring-jwt
         ports:
         - containerPort: 8761
