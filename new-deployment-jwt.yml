@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: jwt-micro-deployment
+  name: micro-deployment-jwt
   labels:
     app: micro
 spec:
