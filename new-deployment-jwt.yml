@@ -18,4 +18,4 @@ spec:
       - name: micro
         image: shekharpyne/spring-jwt
         ports:
-        - containerPort: 8761
+        - containerPort: 8667
